@@ -43,7 +43,8 @@ public class Selenium {
 			System.out.println("Title Expected: \t" + title_expected);
 			System.out.println("Title Actual: \t\t" + title_actual);
 			System.out.println("Test Case Result: \t" + "FAILED");
+				}
+			}
+		driver.quit();
 		}
-		//driver.quit();
-		}
-}}
+	}
